@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Data Insights</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .data-source {
+            font-size: 0.8rem;
+            color: #6b7280; /* Gray 500 */
+        }
+        .data-source a {
+            color: #2563eb; /* Blue 600 */
+        }
+        .data-source a:hover {
+            color: #1d4ed8; /* Blue 700 */
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-700 text-white py-6">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl font-semibold">Public Data Insights</h1>
+            <p class="mt-2 text-lg">Exploring and visualizing public data</p>
+        </div>
+    </header>
+
+    <nav class="bg-gray-200 py-4">
+        <div class="container mx-auto px-4 flex justify-around">
+            <a href="#energy" class="text-blue-600 hover:text-blue-800 font-semibold">Energy</a>
+            <a href="#unemployment" class="text-blue-600 hover:text-blue-800 font-semibold">Unemployment</a>
+            <a href="#photos" class="text-blue-600 hover:text-blue-800 font-semibold">Photos</a>
+            <a href="#videos" class="text-blue-600 hover:text-blue-800 font-semibold">Videos</a>
+            <a href="#articles" class="text-blue-600 hover:text-blue-800 font-semibold">Articles</a>
+            <a href="#about" class="text-blue-600 hover:text-blue-800 font-semibold">About</a>
+            <a href="#contact" class="text-blue-600 hover:text-blue-800 font-semibold">Contact</a>
+        </div>
+    </nav>
+
+    <main class="container mx-auto py-10 px-4">
+        <section id="energy" class="mb-12">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Energy Insights</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Renewable Energy Trends</h3>
+                    <p class="text-gray-700 mb-4">Analysis of the growth of solar and wind energy production.</p>
+                    <div class="data-source">
+                        Data Source: <a href="#" target="_blank" rel="noopener noreferrer">[Energy Data Source]</a>. License: [License]
+                    </div>
+                    <a href="#" class="mt-4 inline-flex items-center justify-center px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors duration-200">
+                        View Details
+                    </a>
+                </div>
+                </div>
+        </section>
+
+        <section id="unemployment" class="mb-12">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Unemployment Data</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Regional Unemployment Rates</h3>
+                    <p class="text-gray-700 mb-4">Comparison of unemployment rates across different regions.</p>
+                    <div class="data-source">
+                        Data Source: <a href="#" target="_blank" rel="noopener noreferrer">[[Unemployment Data Source]]</a>. License: [License]
+                    </div>
+                    <a href="#" class="mt-4 inline-flex items-center justify-center px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors duration-200">
+                        Explore Data
+                    </a>
+                </div>
+                </div>
+        </section>
+
+        <section id="photos" class="mb-12">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Public Photos</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="bg-white rounded-lg shadow-md p-2 hover:shadow-lg transition-shadow duration-200">
+                    <img src="https://via.placeholder.com/300/87CEEB/000000?Text=Photo+1" alt="Photo 1" class="w-full h-auto rounded-md">
+                    <p class="text-gray-600 text-sm mt-2 text-center">Caption for Photo 1</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-2 hover:shadow-lg transition-shadow duration-200">
+                    <img src="https://via.placeholder.com/300/ADD8E6/000000?Text=Photo+2" alt="Photo 2" class="w-full h-auto rounded-md">
+                    <p class="text-gray-600 text-sm mt-2 text-center">Caption for Photo 2</p>
+                </div>
+                </div>
+        </section>
+
+        <section id="videos" class="mb-12">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Public Videos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-200">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen class="rounded-md"></iframe>
+                    <p class="text-gray-700 mt-2">Description of Video 1.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-200">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/jfKfPfyJRdk" frameborder="0" allowfullscreen class="rounded-md"></iframe>
+                    <p class="text-gray-700 mt-2">Description of Video 2.</p>
+                </div>
+                </div>
+        </section>
+
+        <section id="articles" class="mb-12">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Public Articles & Publications</h2>
+            <div class="space-y-4">
+                <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-200">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-1">Article Title 1</h3>
+                    <p class="text-gray-600 text-sm mb-2">Source: [Publication/Website], Date: [Date]</p>
+                    <p class="text-gray-700 leading-relaxed">Summary of the article goes here...</p>
+                    <a href="#" class="mt-2 inline-flex items-center text-blue-500 hover:text-blue-700 transition-colors duration-200">
+                        Read Article
+                    </a>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-200">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-1">Another Interesting Article</h3>
+                    <p class="text-gray-600 text-sm mb-2">Source: [Publication/Website], Date: [Date]</p>
+                    <p class="text-gray-700 leading-relaxed">More details about this article...</p>
+                    <a href="#" class="mt-2 inline-flex items-center text-blue-500 hover:text-blue-700 transition-colors duration-200">
+                        View More
+                    </a>
+                </div>
+                </div>
+        </section>
+
+        <section id="about" class="mb-12">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">About Me</h2>
+            <p class="text-gray-700 leading-relaxed">
+                Ciao tramite questo sito volevo dare modo ....................................
+            </p>
+        </section>
+
+        <section id="contact" class="mb-12">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Contact Me</h2>
+            <p class="text-gray-700 mb-4">
+                Feel free to reach out to me with any questions, collaborations, or feedback.
+            </p>
+            <ul class="list-none space-y-2">
+                <li>Email: <a href="mailto:[Your Email]" class="text-blue-500 hover:text-blue-700 transition-colors duration-200">[Your Email]</a></li>
+                <li>LinkedIn: <a href="[Your LinkedIn Profile URL]" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700 transition-colors duration-200">[Your LinkedIn Profile]</a></li>
+                <li>GitHub: <a href="[Your GitHub Profile URL]" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700 transition-colors duration-200">[Your GitHub Profile]</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="bg-gray-200 py-4 mt-8">
+        <div class="container mx-auto px-4 text-center text-gray-600">
+            &copy; [Year] [Your Name]. All rights reserved. <span class="text-xs">Data utilized is sourced from public domains.</span>
+        </div>
+    </footer>
+
+    <script>
+        // Basic JavaScript for example "View Details" buttons
+        const viewDetailLinks = document.querySelectorAll('a:contains("View Details"), a:contains("Explore Data"), a:contains("Read Article"), a:contains("View More")');
+        viewDetailLinks.forEach(link => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault();
+                alert('More information coming soon!');
+            });
+        });
+    </script>
+</body>
+</html>
